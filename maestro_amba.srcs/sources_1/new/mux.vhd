@@ -167,16 +167,4 @@ begin
     end if;
 end process;
 
---de esta manera hwdata se actualiza un ciclo despues
---process (clk, HWDATAaux)
---begin
---    if rst = '1' then
---        HWDATA <= (others => '0');
---    else
---        --if clk'event and clk = '1' then
---            HWDATA <= HWDATAaux;
---        --end if;
---    end if;
---end process;
-
 end Behavioral;
