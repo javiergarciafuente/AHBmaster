@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1606930995">
+  <File Type="PA-TCL" Name="ahbarbiter.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="ahbarbiter_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="ahbarbiter_reports.tcl"/>
+  <File Type="RDS-RDS" Name="ahbarbiter.vds"/>
+  <File Type="RDS-UTIL" Name="ahbarbiter_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="ahbarbiter_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="ahbarbiter.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="ahbarbiter_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="ahbarbiter_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/grlib/stdlib/config_types.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../AMBA-RISCV/grlib/stdlib/config_types.vhd"/>
+        <Attr Name="ImportTime" Val="1593541772"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/grlib/stdlib/config.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../AMBA-RISCV/grlib/stdlib/config.vhd"/>
+        <Attr Name="ImportTime" Val="1593541772"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/grlib/stdlib/version.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../AMBA-RISCV/grlib/stdlib/version.vhd"/>
+        <Attr Name="ImportTime" Val="1593541772"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/grlib/stdlib/stdlib.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../AMBA-RISCV/grlib/stdlib/stdlib.vhd"/>
+        <Attr Name="ImportTime" Val="1593541772"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/grlib/amba/amba.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../AMBA-RISCV/grlib/amba/amba.vhd"/>
+        <Attr Name="ImportTime" Val="1606763283"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ahbarbiter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../AMBA-RISCV/AMBA-RISCV.srcs/sources_1/new/ahbarbiter.vhd"/>
+        <Attr Name="ImportTime" Val="1606925469"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/master.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../AMBA-RISCV/AMBA-RISCV.srcs/sources_1/new/master.vhd"/>
+        <Attr Name="ImportTime" Val="1606919817"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/grlib/stdlib/testlib.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../AMBA-RISCV/grlib/stdlib/testlib.vhd"/>
+        <Attr Name="ImportTime" Val="1593541772"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/grlib/stdlib/stdio.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../AMBA-RISCV/grlib/stdlib/stdio.vhd"/>
+        <Attr Name="ImportTime" Val="1593541772"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ahbarbiter"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
