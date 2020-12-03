@@ -1,23 +1,11 @@
 Vivado Simulator 2018.3
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto a204942f21384b7a9463467567df2474 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L grlib -L simprims_ver -L secureip --snapshot ahbarbiter_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.ahbarbiter_tb xil_defaultlib.glbl -log elaborate.log 
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto a204942f21384b7a9463467567df2474 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L grlib -L simprims_ver -L secureip --snapshot ahbmaster_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.ahbmaster_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.numeric_std
-Compiling package grlib.config_types
-Compiling package grlib.config
-Compiling package grlib.version
-Compiling package grlib.stdlib
-Compiling package grlib.amba
-Compiling module xil_defaultlib.glbl
-Compiling architecture behavioral of entity xil_defaultlib.ahbarbiter [ahbarbiter_default]
-Compiling architecture behavioral of entity xil_defaultlib.mux [mux_default]
-Compiling architecture bench of entity xil_defaultlib.ahbarbiter_tb
-Built simulation snapshot ahbarbiter_tb_time_synth
+ERROR: [VRFC 10-3146] binding entity 'ahbmaster' does not have generic 'hindex' [C:/Users/Javier/Documents/GitHub/AHBmaster/maestro_amba.srcs/sim_1/imports/new/ahbmaster_tb.vhd:16]
+ERROR: [VRFC 10-718] formal port <ahbmi> does not exist in entity <ahbmaster>.  Please compare the definition of block <ahbmaster> to its component declaration and its instantion to detect the mismatch. [C:/Users/Javier/Documents/GitHub/AHBmaster/maestro_amba.srcs/sim_1/imports/new/ahbmaster_tb.vhd:20]
+ERROR: [VRFC 10-718] formal port <ahbmo> does not exist in entity <ahbmaster>.  Please compare the definition of block <ahbmaster> to its component declaration and its instantion to detect the mismatch. [C:/Users/Javier/Documents/GitHub/AHBmaster/maestro_amba.srcs/sim_1/imports/new/ahbmaster_tb.vhd:21]
+ERROR: [VRFC 10-718] formal port <dmai> does not exist in entity <ahbmaster>.  Please compare the definition of block <ahbmaster> to its component declaration and its instantion to detect the mismatch. [C:/Users/Javier/Documents/GitHub/AHBmaster/maestro_amba.srcs/sim_1/imports/new/ahbmaster_tb.vhd:22]
+ERROR: [VRFC 10-718] formal port <dmao> does not exist in entity <ahbmaster>.  Please compare the definition of block <ahbmaster> to its component declaration and its instantion to detect the mismatch. [C:/Users/Javier/Documents/GitHub/AHBmaster/maestro_amba.srcs/sim_1/imports/new/ahbmaster_tb.vhd:23]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

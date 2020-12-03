@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Javier/Documents/maestro_amba/maestro_amba.runs/synth_1'
+HD_PWD='C:/Users/Javier/Documents/GitHub/AHBmaster/maestro_amba.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log ahbarbiter.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ahbarbiter.tcl
+EAStep vivado -log ahbmaster.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ahbmaster.tcl

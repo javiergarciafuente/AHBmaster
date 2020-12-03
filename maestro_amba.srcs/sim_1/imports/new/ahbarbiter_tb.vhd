@@ -73,7 +73,7 @@ architecture bench of ahbarbiter_tb is
   signal HADDR: std_logic_vector(31 downto 0);
   signal HWDATA: std_logic_vector(31 downto 0);
 
-  constant clock_period: time := 50 ns;     --frecuencia del reloj
+  constant clock_period: time := 10 ns;     --frecuencia del reloj
   signal stop_the_clock: boolean;
 
 

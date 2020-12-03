@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log ahbarbiter.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ahbarbiter.tcl" );
+         "-log ahbmaster.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ahbmaster.tcl" );
 
 
 

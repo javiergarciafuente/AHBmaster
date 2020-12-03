@@ -3,6 +3,8 @@ use IEEE.Std_logic_1164.all;
 use IEEE.Numeric_Std.all;
 library grlib;
 use grlib.amba.all;
+library xil_defaultlib;
+use xil_defaultlib.InterfazRV32AHB.all;
 
 entity ahbmaster_tb is
 end;
@@ -17,8 +19,8 @@ architecture bench of ahbmaster_tb is
         clk   : in  std_ulogic;
         ahbmi : in ahb_mst_in_type;
         ahbmo : out ahb_mst_out_type;
-        dmai  : in ahb_dma_in_type;
-        dmao  : out ahb_dma_out_type
+        dmai  : in RV32_to_AHB;
+        dmao  : out AHB_to_RV32
     );
   end component;
 
@@ -28,10 +30,10 @@ architecture bench of ahbmaster_tb is
    zahbdw, zxirq(NAHBIRQ-1 downto 0), '0', '0', '0', '0', ztestin);
   signal ahbmo: ahb_mst_out_type;-- := ( '0', '0', "00", zx,
    --'0', "000", "000", "0000", zahbdw, zxirq(NAHBIRQ-1 downto 0), (others => zx), 0);
-  signal dmai: ahb_dma_in_type := ((others => '0'), (others => '0'),'0','0','0','0','0',(others => '0'));
-  signal dmao: ahb_dma_out_type := ('0','0','0','0','0',(others => '0'),(others => '0'));
+  signal dmai: RV32_to_AHB := ('0',(others => '0'), '0', (others => '0'),(others => '0'),'0','0');
+  signal dmao: AHB_to_RV32 := ((others => '0'),'0');
 
-  constant clock_period: time := 50 ns;     --frecuencia del reloj
+  constant clock_period: time := 10 ns;     --frecuencia del reloj
   signal stop_the_clock: boolean;
 
 begin
@@ -49,16 +51,16 @@ begin
     rst <= '1';
     wait for 20ns;
     rst <= '0';
-
     dmai.start <= '1';
     dmai.write <= '1';
     dmai.address <= x"08080808";
     dmai.wdata <= x"11111111";
     dmai.size <= "010";
-    wait for 100ns;
     ahbmi.hready <= '1';
     wait for 50ns;
     ahbmi.hgrant(0) <= '1';
+    wait for 100ns;
+   
     
     wait for 100ns;
     

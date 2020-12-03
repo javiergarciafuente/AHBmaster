@@ -1,8 +1,6 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 02.12.2020 17:53:44
+-- Engineer: Javier Garcia
+--
 -- Design Name: 
 -- Module Name: mux - Behavioral
 -- Project Name: 

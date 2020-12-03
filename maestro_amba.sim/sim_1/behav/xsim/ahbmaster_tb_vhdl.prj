@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../maestro_amba.srcs/sources_1/new/InterfazRV32AHB.vhd" \
+
+vhdl grlib  \
+"../../../../maestro_amba.srcs/sources_1/imports/grlib/stdlib/config_types.vhd" \
+"../../../../maestro_amba.srcs/sources_1/imports/grlib/stdlib/config.vhd" \
+"../../../../maestro_amba.srcs/sources_1/imports/grlib/stdlib/version.vhd" \
+"../../../../maestro_amba.srcs/sources_1/imports/grlib/stdlib/stdlib.vhd" \
+"../../../../maestro_amba.srcs/sources_1/imports/grlib/amba/amba.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../maestro_amba.srcs/sources_1/imports/new/master.vhd" \
+"../../../../maestro_amba.srcs/sim_1/imports/new/ahbmaster_tb.vhd" \
+
+# Do not sort compile order
+nosort

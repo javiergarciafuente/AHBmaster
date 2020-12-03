@@ -1,0 +1,1 @@
+-wto "a204942f21384b7a9463467567df2474" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "grlib" -L "secureip" --snapshot "ahbmaster_tb_behav" "xil_defaultlib.ahbmaster_tb" -log "elaborate.log" 
