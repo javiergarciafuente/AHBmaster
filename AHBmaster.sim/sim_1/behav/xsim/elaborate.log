@@ -1,0 +1,26 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 34c044d773ae482986174db1373dce72 --debug typical --relax --mt 2 -L xil_defaultlib -L grlib -L secureip --snapshot ahbprotocol_tb_behav xil_defaultlib.ahbprotocol_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package grlib.config_types
+Compiling package grlib.config
+Compiling package grlib.version
+Compiling package grlib.stdlib
+Compiling package grlib.amba
+Compiling package xil_defaultlib.interfazrv32ahb
+Compiling architecture behavioral of entity xil_defaultlib.ahbarbiter [ahbarbiter_default]
+Compiling architecture behavioral of entity xil_defaultlib.ahbmaster [ahbmaster_default]
+Compiling architecture behavioral of entity xil_defaultlib.ahbmaster [\ahbmaster(hindex=1)\]
+Compiling architecture behavioral of entity xil_defaultlib.ahbmaster [\ahbmaster(hindex=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.mux [mux_default]
+Compiling architecture bench of entity xil_defaultlib.ahbprotocol_tb
+Built simulation snapshot ahbprotocol_tb_behav

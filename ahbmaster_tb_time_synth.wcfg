@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ahbmaster_tb_time_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="ahbmaster_tb" />
+            <top_module name="amba" />
+            <top_module name="config" />
+            <top_module name="config_types" />
+            <top_module name="glbl" />
+            <top_module name="interfazrv32ahb" />
+            <top_module name="stdlib" />
+            <top_module name="version" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="69980000fs"></ZoomStartTime>
+      <ZoomEndTime time="155780001fs"></ZoomEndTime>
+      <Cursor1Time time="105000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/ahbmaster_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/ahbmo.haddr" type="array">
+      <obj_property name="ElementShortName">.haddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.haddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/ahbmo.hsize" type="array">
+      <obj_property name="ElementShortName">.hsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">.hsize[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/ahbmo.hwrite" type="logic">
+      <obj_property name="ElementShortName">.hwrite</obj_property>
+      <obj_property name="ObjectShortName">.hwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/ahbmi.hready" type="logic">
+      <obj_property name="ElementShortName">.hready</obj_property>
+      <obj_property name="ObjectShortName">.hready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/ahbmi.hrdata" type="array">
+      <obj_property name="ElementShortName">.hrdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.hrdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/ahbmo.hwdata" type="array">
+      <obj_property name="ElementShortName">.hwdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.hwdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/ahbmo.hbusreq" type="logic">
+      <obj_property name="ElementShortName">.hbusreq</obj_property>
+      <obj_property name="ObjectShortName">.hbusreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/ahbmo.hlock" type="logic">
+      <obj_property name="ElementShortName">.hlock</obj_property>
+      <obj_property name="ObjectShortName">.hlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/dmai.start" type="logic">
+      <obj_property name="ElementShortName">.start</obj_property>
+      <obj_property name="ObjectShortName">.start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/dmai.address" type="array">
+      <obj_property name="ElementShortName">.address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/dmai.size" type="array">
+      <obj_property name="ElementShortName">.size[2:0]</obj_property>
+      <obj_property name="ObjectShortName">.size[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/dmai.write" type="logic">
+      <obj_property name="ElementShortName">.write</obj_property>
+      <obj_property name="ObjectShortName">.write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/dmai.atomic" type="logic">
+      <obj_property name="ElementShortName">.atomic</obj_property>
+      <obj_property name="ObjectShortName">.atomic</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/dmai.wdata" type="array">
+      <obj_property name="ElementShortName">.wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/dmao.rdata" type="array">
+      <obj_property name="ElementShortName">.rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/dmao.finish" type="logic">
+      <obj_property name="ElementShortName">.finish</obj_property>
+      <obj_property name="ObjectShortName">.finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/dmai.size" type="array">
+      <obj_property name="ElementShortName">.size[2:0]</obj_property>
+      <obj_property name="ObjectShortName">.size[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/ahbmi" type="array">
+      <obj_property name="ElementShortName">ahbmi</obj_property>
+      <obj_property name="ObjectShortName">ahbmi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/ahbmo" type="array">
+      <obj_property name="ElementShortName">ahbmo</obj_property>
+      <obj_property name="ObjectShortName">ahbmo</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/dmai" type="array">
+      <obj_property name="ElementShortName">dmai</obj_property>
+      <obj_property name="ObjectShortName">dmai</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/dmao" type="array">
+      <obj_property name="ElementShortName">dmao</obj_property>
+      <obj_property name="ObjectShortName">dmao</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/stop_the_clock" type="other">
+      <obj_property name="ElementShortName">stop_the_clock</obj_property>
+      <obj_property name="ObjectShortName">stop_the_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ahbmaster_tb/ahbmi.hgrant" type="array">
+      <obj_property name="ElementShortName">.hgrant[0:15]</obj_property>
+      <obj_property name="ObjectShortName">.hgrant[0:15]</obj_property>
+   </wvobject>
+</wave_config>

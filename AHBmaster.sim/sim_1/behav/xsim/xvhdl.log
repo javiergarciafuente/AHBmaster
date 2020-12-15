@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/Documents/GitHub/AHBmaster/AHBmaster.srcs/sources_1/imports/cp/InterfazRV32AHB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/Documents/GitHub/AHBmaster/AHBmaster.srcs/sources_1/imports/grlib/stdlib/config_types.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/Documents/GitHub/AHBmaster/AHBmaster.srcs/sources_1/imports/grlib/stdlib/config.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/Documents/GitHub/AHBmaster/AHBmaster.srcs/sources_1/imports/grlib/stdlib/version.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/Documents/GitHub/AHBmaster/AHBmaster.srcs/sources_1/imports/grlib/stdlib/stdlib.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/Documents/GitHub/AHBmaster/AHBmaster.srcs/sources_1/imports/grlib/amba/amba.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/Documents/GitHub/AHBmaster/AHBmaster.srcs/sources_1/imports/cp/ahbarbiter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ahbarbiter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/Documents/GitHub/AHBmaster/AHBmaster.srcs/sources_1/imports/cp/master.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ahbmaster'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/Documents/GitHub/AHBmaster/AHBmaster.srcs/sources_1/imports/cp/mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/Documents/GitHub/AHBmaster/AHBmaster.srcs/sim_1/imports/cp/ahbprotocol_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ahbprotocol_tb'

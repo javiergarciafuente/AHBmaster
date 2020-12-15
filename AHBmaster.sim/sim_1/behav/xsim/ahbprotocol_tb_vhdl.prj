@@ -1,0 +1,19 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../AHBmaster.srcs/sources_1/imports/cp/InterfazRV32AHB.vhd" \
+
+vhdl grlib  \
+"../../../../AHBmaster.srcs/sources_1/imports/grlib/stdlib/config_types.vhd" \
+"../../../../AHBmaster.srcs/sources_1/imports/grlib/stdlib/config.vhd" \
+"../../../../AHBmaster.srcs/sources_1/imports/grlib/stdlib/version.vhd" \
+"../../../../AHBmaster.srcs/sources_1/imports/grlib/stdlib/stdlib.vhd" \
+"../../../../AHBmaster.srcs/sources_1/imports/grlib/amba/amba.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../AHBmaster.srcs/sources_1/imports/cp/ahbarbiter.vhd" \
+"../../../../AHBmaster.srcs/sources_1/imports/cp/master.vhd" \
+"../../../../AHBmaster.srcs/sources_1/imports/cp/mux.vhd" \
+"../../../../AHBmaster.srcs/sim_1/imports/cp/ahbprotocol_tb.vhd" \
+
+# Do not sort compile order
+nosort

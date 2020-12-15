@@ -1,7 +1,0 @@
-Running: xsim.dir/ahbarbiter_tb_time_synth/xsimk.exe -simmode gui -wdb ahbarbiter_tb_time_synth.wdb -simrunnum 0 -socket 52919
-Design successfully loaded
-Design Loading Memory Usage: 5760 KB (Peak: 5760 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 6456 KB (Peak: 6456 KB)
-Simulation CPU Usage: 31 ms
